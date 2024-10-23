@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+header{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+background: rgb(39, 44, 61);
+height: 70px;
+padding-bottom: 30px;
+}
+.header__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 23px;
+}
+.header__list{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.header__link{
+    color: rgb(255, 255, 255);
+font-family: Quantico;
+font-size: 20px;
+font-weight: 400;
+line-height: 29px;
+text-decoration: none;
+transition: 0.5s ease-in-out;
+}
+.header__link:hover{
+    color: rgb(255, 156, 40);
+}
+.language{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+.input__title{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+height: 30px;
+background: rgb(64, 72, 100);
+}
+input{
+    background-color: transparent;
+    outline: none;
+    border: none;
+}
+.select__header{
+    width: 165px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+background-color: rgba(0, 0, 0, 0.5);
+color: rgba(255, 255, 255, 0.8);
+font-family: Quantico;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+border-color: black;
+}
+.hero{
+    background-image: url("./images/Bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 554px;
+}
+.hero__item{
+    background-color: black;
+    height: 400px;
+}
+.hero__title{
+    background: linear-gradient(180.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0));
+-webkit-background-clip:
+text;
+-webkit-text-fill-color:
+transparent;
+background-clip:
+transparent;
+font-family: Quantico;
+font-size: 32px;
+font-weight: 400;
+line-height: 46px;
+text-align: center;
+}
+.hero__card{
+    background-color: rgb(27, 30, 39);
+    padding-top: 30px;
+    height: 800px;
+}
+.hero__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+}
+.hero__part{
+    display: flex;
+    align-items: center;
+    gap: 19px;
+}
+.hero__text{
+    width: 323px;
+    color: rgb(191, 191, 191);
+font-family: Quantico;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+}
+.hero__qop{
+    color: rgb(255, 255, 255);
+font-family: Quantico;
+font-size: 24px;
+font-weight: 400;
+line-height: 34px;
+padding-bottom: 30px;
+}
+.champions__hero{
+    width: 740px;
+    margin-left: 390px;
+}
+.hero__bola{
+    color: rgb(255, 255, 255);
+    font-family: Quantico;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    padding-bottom: 30px;
+    margin-top: 100px;
+}
+footer{
+    box-shadow: 0px 0px 10px 10px rgba(0, 0, 0, 0.5);
+background: rgb(39, 44, 61);
+}
+.footer__nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
